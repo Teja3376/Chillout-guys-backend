@@ -8,10 +8,7 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+
 
 # Logs
 logs
@@ -21,23 +18,3 @@ logs/*
 *.pid
 *.gz
 
-# OS / IDE files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.idea/
-.vscode/
-*.iml
-
-# Build output
-dist/
-build/
-.cache/
-.next/
-out/
-coverage/
-
-# Temp files
-.tmp/
-temp/
